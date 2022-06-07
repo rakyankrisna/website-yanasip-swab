@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
 :root {
-    --bluemuda: #42d7f5;
+    --merahpastel: #fe4d5a;
 }
 
 * {
@@ -17,7 +17,7 @@
 }
 
 *::selection {
-    background: var(--bluemuda);
+    background: var(--merahpastel);
     color: #fff;
 }
 
@@ -35,7 +35,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-    background: var(--bluemuda);
+    background: var(--merahpastel);
 }
 
 body {
@@ -53,7 +53,7 @@ section {
     margin-top: 1rem;
     padding: 1rem 4rem;
     border-radius: 5rem;
-    background: var(--bluemuda);
+    background: var(--merahpastel);
     color: #fff;
     overflow: hidden;
     position: relative;
@@ -84,7 +84,7 @@ section {
 }
 
 .heading span {
-    color: var(--bluemuda);
+    color: var(--merahpastel);
 }
 
 
@@ -108,7 +108,7 @@ header .logo {
 }
 
 header .logo span {
-    color: var(--bluemuda);
+    color: var(--merahpastel);
 }
 
 header .navbar ul {
@@ -129,8 +129,8 @@ header .navbar ul li a {
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-    color: var(--bluemuda);
-    border-bottom: .2rem solid var(--bluemuda);
+    color: var(--merahpastel);
+    border-bottom: .2rem solid var(--merahpastel);
     padding: .7rem 0;
 }
 
@@ -161,7 +161,7 @@ header .navbar ul li a:hover {
 }
 
 .home .content span {
-    color: var(--bluemuda);
+    color: var(--merahpastel);
     font-size: 2.5rem;
 }
 
@@ -351,7 +351,7 @@ header .navbar ul li a:hover {
     line-height: 5rem;
     font-size: 2rem;
     color: #fff;
-    background: var(--bluemuda);
+    background: var(--merahpastel);
     border-radius: 5rem;
 }
 
@@ -400,7 +400,7 @@ header .navbar ul li a:hover {
 
 .footer .box-container .box p i {
     padding-right: 1rem;
-    color: var(--bluemuda);
+    color: var(--merahpastel);
 }
 
 .footer .box-container .box a {
@@ -411,7 +411,7 @@ header .navbar ul li a:hover {
 }
 
 .footer .box-container .box a:hover {
-    color: var(--bluemuda);
+    color: var(--merahpastel);
 }
 
 .footer .box-container .box .share {
@@ -444,7 +444,7 @@ header .navbar ul li a:hover {
 }
 
 .footer .credit a {
-    color: var(--bluemuda);
+    color: var(--merahpastel);
 }
 
 .scroll-top {
@@ -504,7 +504,7 @@ header .navbar ul li a:hover {
     header .navbar ul li a.active,
     header .navbar ul li a:hover {
         padding: 1rem;
-        background: var(--bluemuda);
+        background: var(--merahpastel);
         color: #fff;
         border: none;
         border-radius: 5rem;

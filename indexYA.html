@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="stylesYA.css">
+    <title>General Information</title>
+    
+</head>
+
+<body>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+
+            <a href="index.html" class="nav__logo">
+                <img src="gambar/Logo Myswab.svg" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="indexYA.html" class="nav__link">Your Account</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">General Information</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Payment</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--===== General Information =====-->
+    <div class="form">
+        <img src="gambar/1.svg" alt="" class="form__img">
+
+        <form name="myform" action="indexGI.html" class="form__content" onsubmit="return validation()">
+            <h1 class="form__title">Registration</h1>
+            <h2 class="form__title2">Please fill the data below carefully</h2>
+
+            <div class="form__div">
+                <div class="form__icon">
+                    <i class='bx bx-user'></i>
+                </div>
+
+                <div class="form__div-input">
+                    <label for="" class="form__label">Nama Lengkap</label>
+                    <input type="text" class="form__input" name="Nama Lengkap">
+                </div>
+            </div>
+
+            <div class="form__div">
+                <div class="form__icon">
+                    <i class='bx bx-envelope'></i>
+                </div>
+
+                <div class="form__div-input">
+                    <label for="" class="form__label">Email</label>
+                    <input type="text" class="form__input" name="Email">
+                </div>
+            </div>
+
+            <div class="form__div">
+                <div class="form__icon">
+                    <i class='bx bx-lock'></i>
+                </div>
+
+                <div class="form__div-input">
+                    <label for="" class="form__label">Password</label>
+                    <input type="password" class="form__input" name="Password">
+                </div>
+            </div>
+
+            <div class="form__div">
+                <div class="form__icon">
+                    <i class='bx bx-phone-call'></i>
+                </div>
+
+                <div class="form__div-input">
+                    <label for="" class="form__label">No Telepon</label>
+                    <input type="text" class="form__input" name="No Telepon">
+                </div>
+            </div>
+
+            <button class="form__button">Next</button>
+
+        </form>
+    </div>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section">
+        <div class="footer__container bd-container bd-grid">
+            <div class="footer__content">
+                <img src="gambar/Logo Myswab P.svg" alt="" />
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h3>
+                <a href="https://www.facebook.com" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                <a href="https://www.instagram.com" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="https://twitter.com" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Copyright2021 Design by 100temankalian</p>
+    </footer>
+
+    <!-- ===== MAIN JS ===== -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>

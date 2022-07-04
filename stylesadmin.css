@@ -300,6 +300,20 @@ tbody tr:nth-child(even) {
 .table-responsive {
     overflow-x: auto;
 }
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form__button{
+    margin-right: 5vw;
+    padding: 0.5rem 2rem 0 2rem;
+    height: 3rem;
+    background-color: #fe4d5a;
+    color: #efefef;
+    border-radius: 5px;
+    
+}
 
 @media only screen and (max-width: 1200px) {
     .sidebar {

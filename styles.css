@@ -458,6 +458,14 @@ header .navbar ul li a:hover {
 .scroll-top img {
     height: 7rem;
 }
+.flex{
+    display: flex;
+}
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 
 /* media queries  */
 

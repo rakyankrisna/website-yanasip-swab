@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="stylesGI.css">
+    <title>General Information</title>
+    
+</head>
+
+<body>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            
+            <a href="index.html" class="nav__logo">
+                <h3>Yanasip Swab</h3>
+            </a>
+
+        </nav>
+    </header>
+
+    <!--===== General Information =====-->
+    <div class="form">
+        <img src="gambar/2.svg" alt="" class="form__img">
+
+        <form name="myform2" action="indexPA.html" class="form__content" onsubmit="return validation2()">
+            <h1 class="form__title">Data Peserta Swab</h1>
+            <h2 class="form__title2">Please fill the data below carefully</h2>
+
+            <div class="form__div">
+                <div class="form__icon">
+                    <i class='bx bx-user-circle'></i>
+                </div>
+
+                <div class="form__div-input">
+                    <label for="" class="form__label">Nama</label>
+                    <input type="text" class="form__input" name="Data Keluarga" value="Arief Rizqie">
+                </div>
+            </div>
+
+            <div class="form__div">
+                <div class="form__icon">
+                    <i class='bx bx-user-plus'></i>
+                </div>
+
+                <div class="form__div-input">
+                    <label for="" class="form__label">NIK</label>
+                    <input type="text" class="form__input" name="NIK" value="0876352321321">
+                </div>
+            </div>
+
+            <div class="form__div">
+                <div class="form__icon">
+                    <i class='bx bx-calendar'></i>
+                </div>
+
+                <div class="form__div-input">
+                    <label for="" class="form__label">Tanggal Tes</label>
+                    <input type="datetime" class="form__input" name="Tanggal" value="04/07/2022">
+                </div>
+            </div>
+
+            <div class="form__div">
+                <div class="form__icon">
+                    <i class='bx bx-been-here'></i>
+                </div>
+
+                <div class="form__div-input">
+                    <label for="" class="form__label">Alamat</label>
+                    <input type="textarea" class="form__input" name="Alamat" value="Jl. Lorem Ipsum sir Amet">
+                </div>
+            </div>
+
+            <div class="form__div">
+                <div class="form__icon">
+                    <i class='bx bx-building-house'></i>
+                </div>
+
+                <div class="form__div-input">
+                    <label for="" class="form__label">Pilihan Rumah Sakit</label>
+                    <input type="text" class="form__input" name="RS" value="Rumah Sakit Unair">
+                </div>
+            </div>
+            <a href="admindbafter.html" class="form__button" style="background-color: red" >Submit</a>
+            <!-- <input type="submit" class="form__button" value="Next" style="background-color: red"> -->
+
+        </form>
+    </div>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section">
+        <div class="footer__container bd-container bd-grid">
+            <div class="footer__content">
+                <img src="gambar/Logo Myswab P.svg" alt="" />
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h3>
+                <a href="https://www.facebook.com" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                <a href="https://www.instagram.com" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="https://twitter.com" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Copyright2021 Design by 100temankalian</p>
+    </footer>
+
+    <!-- ===== MAIN JS ===== -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
